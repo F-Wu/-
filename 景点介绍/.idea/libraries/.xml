@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="数据库驱动">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/数据库驱动.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

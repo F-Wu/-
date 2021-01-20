@@ -1,0 +1,257 @@
+/* 公共部分 */
+*{margin: 0;padding: 0;}
+body{
+    background-color: #F3F3F3;
+}
+a{text-decoration: none;color: #333333;}
+.margin{width: 1200px;margin: auto;}
+/* 清除浮动 */
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0
+}
+/* 头部 */
+/* logo */
+.logos{
+    float: left;
+    margin-right: 164px;
+    }
+.logo{
+    float: left;
+    margin-top: 7px;
+    margin-right: 3px;
+        }
+.name{
+    float: left;
+    margin-top: 17px;
+    }
+/* 导航nav */
+.nav{
+    height: 72px;
+    float: left;
+    margin-right: 136px;
+    }
+ul li {
+    list-style: none;
+}
+.navs>li{
+    float: left;
+    font-size: 18px;
+    line-height: 72px;
+    width: 80px;
+    text-align: center;
+    margin-right: 25px;
+    }
+.nav>.navs>.start{
+    background-color: rgb(102, 153, 255);
+    border: 1px;
+}
+.nav>.navs>.start>a{color: #fff;}
+.navs>li:hover{
+    background-color: rgb(102, 153, 255);
+    font-size: 20px;
+    }
+
+/* 登录注册状态 */
+.sign{
+    float: left;
+    font-size: 18px;
+    line-height: 72px;
+}
+.sign>span>a:hover{color: violet;}
+.sign>span{
+    display: block;
+    float: left;
+}
+.border{
+    width: 1px;
+    height: 14px;
+    background: rgb(153, 153, 153);
+    float: left;
+    margin-top: 28px; 
+    margin: 28px 11px 30px 10px;
+    }
+
+/* head2 */
+.div2{
+    background-color: #666666;
+    border: 1px solid transparent;
+}
+.head2{
+    background-color: #666666;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    position: relative;
+}
+.head2>.left,.hisrecold,.comment,.personal{
+    float: left;
+    width: 100px;
+    height: 22px;
+    border-left: 1px solid #ffffff;
+}
+.head2>.left{background: url(../img/游记/搜素ICON.png) no-repeat center;border-right: 1px solid #ffffff;}
+.hisrecold{background: url(../img/游记/hisrecord.png) no-repeat center;}
+.comment{background: url(../img/游记/comment.png) no-repeat center;}
+.personal{background: url(../img/游记/personal.png) no-repeat center;border-right: 1px solid #ffffff;}
+.head2>.right{
+    position: absolute;
+    float: left;
+    right: 0px;
+}
+/* 内容 */
+/* 左侧 */
+.cntleft{
+    width: 354px;
+    float: left;
+    margin-right: 74px;
+    margin-top: 55px;
+}
+.cntleft>.line,.smalpho li>.line{
+    width: 354px;
+    height: 1px;
+    background-color: #cccccc;
+    margin-bottom: 55px;
+}
+.smalpho li>.line{
+    margin-bottom: 34px;
+}
+/* 标题 */
+.title>div{
+    width: 203px;
+    height: 61px;
+    font-size: 26px;
+    color: #6699ff;
+    line-height: 61px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 44px;
+    border: 1px solid #cccccc;
+}
+.title>div img{
+    display: inline-block;
+    margin-left: 21px;
+}
+.cntleft>.Selpht>li{
+    width: 354px;
+    height: 270px;
+    background-color: #ffffff;
+    margin-bottom: 55px;
+    box-sizing: border-box;
+    padding-bottom: 21px;
+}
+.cntleft .theme{
+    float: left;
+    margin-top: 25px;
+    font-size: 20px;
+    width: 113px;
+    height: 41px;
+    margin-left: 23px;
+}
+.cntleft>.Selpht>li>.clearfix>img{
+    float: left;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 136px;
+}
+.cntleft .theme>span{
+    font-size: 12px;
+    color: #666666;
+}
+/* 小照片 */
+.smalpho .top{margin-bottom: 38px;}
+.smalpho .top>img{
+    display: inline-block;
+    float: left;
+}
+/* 关于我们 */
+.cntleft .abouus>p{font-size: 22px;margin-bottom: 22px ;}
+.cntleft .abouus>span{font-size: 16px;color: #666666;line-height: 30px;display: block;}
+.cntleft .abouus>button{width: 122px;height: 50px;font-size: 14px;line-height: 50px;text-align: center;border: 1px solid #cccccc;margin-top: 29px;}
+/* 精选文章 */
+.Selarticle{float: left;margin-top: 55px;}
+.article{width: 768px;height: 731px;background-color: #ffffff;border: 1px solid #cccccc;margin-bottom: 70px;}
+.Selarticle .article .top{height: 111px;border-bottom: 1px solid #cccccc;margin-bottom: 60px;}
+.Selarticle .article .title{width: 593px;height: 111px;border-right: 1px solid #cccccc;font-size: 22px;margin-left: 37px;position: relative;float: left;}
+.Selarticle .article .title p{position: absolute;top: 33px;}
+.Selarticle .article .title span{display: block;font-size: 12px;color: #666666;}
+.titleatho{float: left;font-size: 12px;margin: 33px auto;margin-left: 20px;text-align: right;}
+.titleatho div{width: 73px;;margin: auto;}
+.titleatho div p{height: 39px;line-height: 39px;color: #666666; float: left;margin-right: 8px;}
+.titleatho div img{float: left;}
+.article>img{display: block;margin-left: 37px;margin-bottom: 33px;}
+.article>p{margin-left: 37px;font-size: 16px;line-height: 28px;margin-bottom: 24px;}
+.article .btn{margin-left: 37px;height: 50px;}
+.article .btn button{
+    width: 110px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    line-height: 50px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 288px;
+}
+.article .btn li{
+    float: left;
+    font-size: 18px;
+    color: #666666;
+    height: 50px;
+    margin-top: 16px;
+    
+}
+.article .btn li>span{
+    display: inline-block;
+    margin-right: 16px;
+}
+.article .lines{height: 16px;width: 1px;background-color: #cccccc;display: inline-block;margin-right: 24px;}
+/* 翻页 */
+.Selarticle .tuenpage{
+    border: 1px solid transparent;
+    width: 768px;
+    height: 59px;
+}
+.Selarticle .tuenpage>button{
+    width: 198px;
+    height: 59px;
+    border: 1px solid #cccccc;
+    font-size: 18px;
+    line-height: 59px;
+    float: left;
+}
+.Selarticle .tuenpage>ul{
+    margin: 0 18px;
+    float: left;
+}
+.Selarticle .tuenpage li{
+    float: left;
+    font-size: 18px;
+    height: 59px;
+    line-height: 59px;
+    color: #666666;
+    list-style: none;
+    margin-right: 28px;
+}
+.Selarticle .tuenpage .lilast{margin-right: 0px !important;}
+/* 页面底部 */
+.page_btn{
+    background-color: #6699ff;
+}
+.page_btn_text{
+    background-color: #6699ff;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 650px;
+    margin-top: 67px;
+}
+.page_btn_text p{
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 130px;
+    line-height: 35px;
+    padding-top: 36px;
+}
+.tuenpage ul li a{color: #6699ff;}

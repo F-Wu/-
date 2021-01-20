@@ -1,0 +1,151 @@
+*{margin: 0;padding: 0;}
+.back{
+    background:url(../img/登录界面/登录.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 1px transparent;
+}
+.logo{
+    margin:auto;
+    background: url(../img/登录界面/logos.png);
+    width: 93px;
+    height: 93px;
+    margin-top: 25px;
+}
+.content{
+    width: 380px;
+    margin: 15px auto;
+    box-sizing: border-box;
+    padding-top: 28px;
+    background-color: #ffffff;
+    border: solid 1px #ffffff;
+    border-radius: 8px;
+}
+form{
+    box-sizing: border-box;
+    width: 380px;
+    padding-top: 18px;
+    padding-left: 39px;
+    padding-right: 41px;
+
+}
+input{
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 300px;
+    border: 1px solid  #cccccc;
+    border-radius: 4px;
+    padding-left: 18px;
+    color: #999999;
+    font-size: 14px;
+    line-height: 40px;
+}
+form>p,form>p>a{
+    text-align: right;
+    font-size: 12px;
+    color: #6699ff;
+    margin: 15px 0;
+}
+form>p>a{
+    text-decoration: none;
+}
+.nanber{
+    margin-bottom: 18px;
+}
+.password{
+    margin-bottom: 18px;
+}
+button{
+    background-color: #6699ff;
+    color: #ffffff;
+    border-radius: 4px;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #6699ff;
+    margin-bottom: 30px;
+}
+/* 合作 */
+.hezuo{
+    border-top: 1px solid #cccccc;
+    box-sizing: border-box;
+    padding-left: 39px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+.hezuo>p{
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+/* 图片 */
+li{
+    float: left;
+    list-style: none;
+    margin-right: 56px;
+    width: 48px;
+    height: 35px;
+    position: relative;
+}
+li>p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    position: absolute;
+    top: 45px;
+    width: 48px;
+    margin-bottom: 24px;
+}
+.weibo{background: url(../img/登录界面/weibo.png) no-repeat center;}
+.QQ{background: url(../img/登录界面/QQ.png) no-repeat center;}
+.wx{background: url(../img/登录界面/weix.png) no-repeat center;}
+/* 注册 */
+.zuce{
+    width: 160px;
+    height: 26px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top: 18px;
+    line-height: 26px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.zuce a{color: #6699ff;}
+/* 清除浮动 */
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0
+}
+/*忘记密码弹窗*/
+.black_overlay{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 700px;
+    height: 700px;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=88);
+}
+.white_content {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 700px;
+    height: 700px;
+    z-index:1002;
+    overflow: auto;
+}
+form a{display: block;}
+
